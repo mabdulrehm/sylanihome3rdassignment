@@ -1,0 +1,186 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topbar{
+    color: white;
+    text-align: center;
+}.icon ul{
+    list-style: none;
+}
+.icon ul li{
+    width: 40px;
+    list-style: none;
+    display: inline-block;
+}
+.icon img{
+    height: 20px;
+    width: 20px; 
+}
+#home{
+    border-radius:15px;
+    background-color: rgb(47, 100, 199);
+}
+.nav-item  a:hover{ 
+    border-radius:20px;
+    height:40px;
+    background-color: rgb(47, 100, 199);
+}
+.news{
+    height: 30px;
+    text-align: center;
+    background-color: rgb(47, 100, 199);
+    margin: 20px 50px auto 50px;
+    display:inline-block;
+    color: white;
+}
+.intro{
+    margin-left: 10px;
+    background-color: whitesmoke;
+    text-align: center;
+    height: 700px;
+}
+.month{
+    background-color: rgb(47, 100, 199);
+    height: 300px;
+    font-weight:20px bold;
+    padding: 75px;
+    text-align: center;
+    color: white;
+}
+.for{
+    background-color: green;
+    color: white;
+    border: green;
+}
+.month ul{
+    list-style: none;
+}
+.month ul li{
+    display: inline-block;
+    list-style: none;
+    width: 280px;
+}
+.main{
+    background-color: whitesmoke;
+    height: 600px;
+}
+.doing{
+    text-align: center;
+}
+.are-doing-area {
+    padding: 30px;
+    background-color: white;
+    height: 180px;
+    width:350px;
+    display: inline-block;
+    margin: 5px 40px 5px 40px;
+    text-align: center;
+}
+.are-doing-area h3{
+    color: green;
+}
+.amain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.Mission  {
+    display: inline-block;
+    margin-top: 30px;
+    color:  rgb(47, 100, 199);
+    width:750px;
+}
+.project{
+    color: rgb(45, 17, 168);
+    margin-top: 20px ;
+    padding-left: 20px;   
+    background-color: whitesmoke;
+    height: 50px;
+    width: 350px;
+    display: inline-block;
+    font-weight: bold;
+}
+.upcoming{
+    margin-top: 30px;
+    color: rgb(47, 100, 199); 
+}
+#p{
+    width: 300px;
+    color: black;
+}
+.gellery{
+    flex: 1;
+    text-align: center;
+}
+.footer-bar{
+    padding-top: 80px;
+    padding-left: 70px;
+    margin-top: 60px;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    
+}
+.uppage{
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        width: 500px;
+    }
+    .icon{
+        text-align: center;
+    }
+    #a{
+      height: 500px;
+    }
+    .news{
+        width: 500px;
+        margin: 0px;
+    }
+    .intro{
+        width: 500px;
+        height:1500px ;
+    }
+    .are-doing-area{
+        margin:15px 15px 15px 15px;
+        width: 360px;
+    }
+    .doing{
+        text-align: unset;
+        width: 500px;
+    }
+    .main{
+        width: 500px;
+        height: 1300px; 
+    } 
+      .amain{
+       height: 1200px;
+    }
+    .Mission{
+        height: 300px;
+    }
+    .month{
+        width: 500px;
+        height: 700px;
+        text-align: justify;
+    }
+    .footer-bar{
+        height:900px;
+        margin: auto;
+
+    }
+    .uppage{
+        background-color: rgba(245, 245, 220, 0.432);
+        position: fixed;
+        bottom: 10px;
+        left: 300px;
+    }
+.navbar{
+background: #2f64c7;
+}
+}
